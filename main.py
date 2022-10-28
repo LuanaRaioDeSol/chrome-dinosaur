@@ -240,7 +240,7 @@ def menu(death_count):
     global points
     run = True
     while run:
-        SCREEN.fill((255, 255, 255))
+        SCREEN.fill((0, 0, 255))
         font = pygame.font.Font('freesansbold.ttf', 30)
 
         if death_count == 0:
